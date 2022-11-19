@@ -47,7 +47,7 @@ const UserCreationForm = (props) => {
 
   // Mapping data to display state option
   const stateElements = props.endpointData?.states?.map((index) => (
-    <option key={index.name}>{index.name}</option>
+    <option key={index.abbreviation}>{index.abbreviation}</option>
   ));
 
   const handleChange = (e) => {
