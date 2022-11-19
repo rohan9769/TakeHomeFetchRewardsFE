@@ -28,5 +28,5 @@ The app has form validation for all inputs on the form which upon filling out co
 - Hide/Unhide password on toggle(using the eye icon in password field)
 - Form State reset upon successful submission
 - Mobile Responsive
-- Hosted using surge.sh
+
 
