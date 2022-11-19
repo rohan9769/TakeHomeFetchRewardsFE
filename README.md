@@ -18,7 +18,7 @@ The app has form validation for all inputs on the form which upon filling out co
 
 # Minimum Requirements
 
-- Display a form with inputs for each field outlined
+- Display a form with inputs for each field outlined above
 - Allow a user to complete and submit the form
 - Do not allow form submission without completing the entire form
 - Provide feedback upon successful form submission
