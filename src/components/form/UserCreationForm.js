@@ -1,5 +1,6 @@
 import { useState } from "react";
-import PasswordCreation from "./inputs/PasswordCreation";
+import PassCreationField from "./PassCreationField";
+import SuccessPopup from "./SuccessPopup";
 
 const UserCreationForm = (props) => {
 
@@ -200,7 +201,8 @@ const UserCreationForm = (props) => {
             )}
           </div>
 
-          <PasswordCreation userForm={userForm} handleChange={handleChange} />
+          <PassCreationField userForm={userForm} handleChange={handleChange} />
+          <SuccessPopup handleSubmit={handleSubmit} isSubmitDisabled={isSubmitDisabled} />
 
          
 
