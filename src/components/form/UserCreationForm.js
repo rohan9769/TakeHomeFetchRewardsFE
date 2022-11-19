@@ -159,7 +159,7 @@ const UserCreationForm = (props) => {
               className="input input-bordered bg-white focus:border-[#440D8C]"
             />
             {userForm.errors.fullName !== '' && (
-              <p className="text-sm text-[#f87171] pt-2">{userForm.errors.fullName}</p>
+              <p className="text-sm text-[#440D8C] pt-2">{userForm.errors.fullName}</p>
             )}
           </div>
 
@@ -173,7 +173,7 @@ const UserCreationForm = (props) => {
             </select>
 
             {userForm.errors.occupation !== '' && (
-              <p className="text-sm text-[#f87171] mb-2">{userForm.errors.occupation}</p>
+              <p className="text-sm text-[#440D8C] mb-2">{userForm.errors.occupation}</p>
             )}
             <select
             name="state" value={userForm.state}
@@ -184,7 +184,7 @@ const UserCreationForm = (props) => {
             </select>
 
             {userForm.errors.state !== '' && (
-              <p className="text-sm text-[#f87171] my-2">{userForm.errors.state}</p>
+              <p className="text-sm text-[#440D8C] my-2">{userForm.errors.state}</p>
             )}
           </div>
 
@@ -197,7 +197,7 @@ const UserCreationForm = (props) => {
               className="input input-bordered bg-white focus:border-[#440D8C]"
             />
             {userForm.errors.email !== '' && (
-              <p className="text-sm text-[#f87171] pt-2">{userForm.errors.email}</p>
+              <p className="text-sm text-[#440D8C] pt-2">{userForm.errors.email}</p>
             )}
           </div>
 

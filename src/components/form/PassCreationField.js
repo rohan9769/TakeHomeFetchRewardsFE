@@ -26,7 +26,7 @@ const PassCreationField = (props) => {
         </div>
 
         {props.userForm.errors.password !== "" && (
-          <p className="text-sm text-[#f87171] pt-2">
+          <p className="text-sm text-[#440D8C] pt-2">
             {props.userForm.errors.password}
           </p>
         )}
@@ -52,7 +52,7 @@ const PassCreationField = (props) => {
         </div>
 
         {props.userForm.errors.confirmPassword !== "" && (
-          <p className="text-sm text-[#f87171] pt-2">
+          <p className="text-sm text-[#440D8C] pt-2">
             {props.userForm.errors.confirmPassword}
           </p>
         )}
